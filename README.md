@@ -1,4 +1,3 @@
-# DW-HW-7
 from airflow import DAG
 from airflow.providers.snowflake.operators.snowflake import SnowflakeOperator
 from airflow.utils.dates import days_ago
